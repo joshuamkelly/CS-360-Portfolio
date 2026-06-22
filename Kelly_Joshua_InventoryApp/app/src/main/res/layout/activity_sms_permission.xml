@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9FC"
+    tools:context=".SmsPermissionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textSmsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS Notifications"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/textSmsDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inventory Tracker can send text alerts when an item reaches low stock or becomes out of stock."
+            android:textSize="15sp"
+            android:textColor="#555555"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:id="@+id/textSmsPermissionQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Would you like to allow SMS notifications?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginBottom="22dp" />
+
+        <Button
+            android:id="@+id/buttonAllowSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allow SMS Notifications"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="14dp" />
+
+        <Button
+            android:id="@+id/buttonDenySms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Thanks"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:id="@+id/textSmsStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If permission is granted, low inventory alerts will be sent by text. If permission is denied, the app will still work without SMS alerts."
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#E3F2FD" />
+
+    </LinearLayout>
+</ScrollView>

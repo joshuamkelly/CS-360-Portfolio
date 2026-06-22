@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Kelly_Joshua_InventoryApp_ProjectTwo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Kelly_Joshua_InventoryApp_ProjectTwo" parent="Base.Theme.Kelly_Joshua_InventoryApp_ProjectTwo" />
+</resources>
